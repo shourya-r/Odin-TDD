@@ -9,5 +9,5 @@ test("subtract(8,3) returns 5", () => {
 });
 
 test("multiply(7,9) returns 63", () => {
-  expect(calculator.subtract(7, 9)).toBe(63);
+  expect(calculator.multiply(7, 9)).toBe(63);
 });
