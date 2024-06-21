@@ -31,3 +31,19 @@ test("multiply(-6,3) returns -18", () => {
 test("divide(8,-2) returns -4", () => {
   expect(calculator.divide(8, -2)).toBe(-4);
 });
+
+test("add(-8,-4) returns -12", () => {
+  expect(calculator.add(-8, -4)).toBe(-12);
+});
+
+test("subtract(-1,-6) returns 5", () => {
+  expect(calculator.subtract(-1, -6)).toBe(5);
+});
+
+test("multiply(-5,-8) returns 40", () => {
+  expect(calculator.multiply(-5, -8)).toBe(40);
+});
+
+test("divide(-5,-2) returns 2.5", () => {
+  expect(calculator.divide(-5, -2)).toBe(2.5);
+});
