@@ -1,5 +1,5 @@
 function reverseString(string) {
-  return "dcba";
+  return string.split("").reverse().join("");
 }
 
 export { reverseString };
