@@ -47,3 +47,7 @@ test("multiply(-5,-8) returns 40", () => {
 test("divide(-5,-2) returns 2.5", () => {
   expect(calculator.divide(-5, -2)).toBe(2.5);
 });
+
+test("divide(-11,-3) returns 3.667", () => {
+  expect(calculator.divide(-11, -3)).toBe(3.667);
+});
