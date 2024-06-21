@@ -8,6 +8,9 @@ const calculator = {
   multiply(a, b) {
     return a * b;
   },
+  divide(a, b) {
+    return a / b;
+  },
 };
 
 export { calculator };
