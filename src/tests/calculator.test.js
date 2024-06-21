@@ -51,3 +51,19 @@ test("divide(-5,-2) returns 2.5", () => {
 test("divide(-11,-3) returns 3.667", () => {
   expect(calculator.divide(-11, -3)).toBe(3.667);
 });
+
+test("add(a,-4) returns undefined", () => {
+  expect(calculator.add("a", -4)).toBe(undefined);
+});
+
+test("subtract(-1,b) returns undefined", () => {
+  expect(calculator.subtract(-1, "b")).toBe(undefined);
+});
+
+test("multiply(null,d) returns 40", () => {
+  expect(calculator.multiply(null, "d")).toBe(undefined);
+});
+
+test("divide(e,undefined) returns undefined", () => {
+  expect(calculator.divide("e", undefined)).toBe(undefined);
+});
